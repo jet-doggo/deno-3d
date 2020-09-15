@@ -1,0 +1,492 @@
+{
+    "asset" : {
+        "generator" : "Khronos glTF Blender I/O v1.1.46",
+        "version" : "2.0"
+    },
+    "scene" : 0,
+    "scenes" : [
+        {
+            "name" : "Scene",
+            "nodes" : [
+                0,
+                1,
+                16
+            ]
+        }
+    ],
+    "nodes" : [
+        {
+            "name" : "Light",
+            "rotation" : [
+                0.16907575726509094,
+                0.7558803558349609,
+                -0.27217137813568115,
+                0.570947527885437
+            ],
+            "translation" : [
+                4.076245307922363,
+                5.903861999511719,
+                -1.0054539442062378
+            ]
+        },
+        {
+            "name" : "Camera",
+            "rotation" : [
+                0.483536034822464,
+                0.33687159419059753,
+                -0.20870360732078552,
+                0.7804827094078064
+            ],
+            "translation" : [
+                7.358891487121582,
+                4.958309173583984,
+                6.925790786743164
+            ]
+        },
+        {
+            "name" : "head",
+            "rotation" : [
+                0.6950570344924927,
+                0,
+                0,
+                0.7189546227455139
+            ],
+            "translation" : [
+                0,
+                2.0175468921661377,
+                0.09745466709136963
+            ]
+        },
+        {
+            "children" : [
+                2
+            ],
+            "name" : "neck_03",
+            "rotation" : [
+                -0.025759408250451088,
+                0,
+                0,
+                0.9996681809425354
+            ],
+            "scale" : [
+                1,
+                1,
+                0.9999999403953552
+            ],
+            "translation" : [
+                0,
+                1.517500400543213,
+                0
+            ]
+        },
+        {
+            "children" : [
+                3
+            ],
+            "name" : "neck_02",
+            "rotation" : [
+                -0.052512843161821365,
+                0,
+                0,
+                0.9986202716827393
+            ],
+            "scale" : [
+                1,
+                1,
+                0.9999999403953552
+            ],
+            "translation" : [
+                0,
+                0.8761734962463379,
+                5.960464477539063e-08
+            ]
+        },
+        {
+            "children" : [
+                4
+            ],
+            "name" : "neck_01",
+            "rotation" : [
+                -0.3835444748401642,
+                0,
+                0,
+                0.923522412776947
+            ],
+            "translation" : [
+                0,
+                4.4784345626831055,
+                -0.657443642616272
+            ]
+        },
+        {
+            "name" : "front_limb_L",
+            "rotation" : [
+                0.8672835826873779,
+                0.06664969027042389,
+                0.019270451739430428,
+                0.49295610189437866
+            ],
+            "scale" : [
+                0.9999999403953552,
+                1,
+                1
+            ],
+            "translation" : [
+                1.2072868347167969,
+                1.953184962272644,
+                1.4870069026947021
+            ]
+        },
+        {
+            "name" : "front_limb_R",
+            "rotation" : [
+                0.8672835826873779,
+                -0.06664969027042389,
+                -0.019270451739430428,
+                0.49295610189437866
+            ],
+            "scale" : [
+                0.9999999403953552,
+                1,
+                1
+            ],
+            "translation" : [
+                -1.2072868347167969,
+                1.953184962272644,
+                1.4870069026947021
+            ]
+        },
+        {
+            "name" : "hind_leg_L",
+            "rotation" : [
+                0.8842533826828003,
+                0.07876446843147278,
+                0.022773215547204018,
+                0.45975393056869507
+            ],
+            "translation" : [
+                0.6699697375297546,
+                -0.3833986520767212,
+                0.2606995105743408
+            ]
+        },
+        {
+            "name" : "hind_leg_R",
+            "rotation" : [
+                0.8842533826828003,
+                -0.07876446843147278,
+                -0.022773215547204018,
+                0.45975393056869507
+            ],
+            "translation" : [
+                -0.6699697375297546,
+                -0.3833986520767212,
+                0.2606995105743408
+            ]
+        },
+        {
+            "name" : "tail_03",
+            "rotation" : [
+                0.036139167845249176,
+                0,
+                0,
+                0.9993468523025513
+            ],
+            "translation" : [
+                0,
+                1.004532814025879,
+                -1.1920928955078125e-07
+            ]
+        },
+        {
+            "children" : [
+                10
+            ],
+            "name" : "tail_02",
+            "rotation" : [
+                0.034797292202711105,
+                0,
+                0,
+                0.999394416809082
+            ],
+            "scale" : [
+                1,
+                0.9999999403953552,
+                1
+            ],
+            "translation" : [
+                0,
+                1.006873369216919,
+                1.1920928955078125e-07
+            ]
+        },
+        {
+            "children" : [
+                11
+            ],
+            "name" : "tail_01",
+            "rotation" : [
+                -0.9992401599884033,
+                0,
+                0,
+                0.038977883756160736
+            ],
+            "scale" : [
+                1,
+                0.9999999403953552,
+                0.999976634979248
+            ],
+            "translation" : [
+                0,
+                -1.2570816278457642,
+                -0.33400237560272217
+            ]
+        },
+        {
+            "children" : [
+                5,
+                6,
+                7,
+                8,
+                9,
+                12
+            ],
+            "name" : "body",
+            "rotation" : [
+                0.48288223147392273,
+                0,
+                0,
+                0.8756852746009827
+            ],
+            "scale" : [
+                1,
+                0.9999999403953552,
+                1
+            ],
+            "translation" : [
+                0,
+                2.515254259109497,
+                -1.4324562549591064
+            ]
+        },
+        {
+            "children" : [
+                13
+            ],
+            "name" : "root"
+        },
+        {
+            "mesh" : 0,
+            "name" : "Mesh",
+            "skin" : 0
+        },
+        {
+            "children" : [
+                15,
+                14
+            ],
+            "name" : "Armature"
+        }
+    ],
+    "materials" : [
+        {
+            "doubleSided" : true,
+            "emissiveFactor" : [
+                0,
+                0,
+                0
+            ],
+            "name" : "Material",
+            "normalTexture" : {
+                "index" : 0,
+                "texCoord" : 0
+            },
+            "pbrMetallicRoughness" : {
+                "baseColorTexture" : {
+                    "index" : 1,
+                    "texCoord" : 0
+                },
+                "metallicRoughnessTexture" : {
+                    "index" : 2,
+                    "texCoord" : 0
+                }
+            }
+        }
+    ],
+    "meshes" : [
+        {
+            "name" : "Mesh",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "NORMAL" : 1,
+                        "TANGENT" : 2,
+                        "TEXCOORD_0" : 3,
+                        "JOINTS_0" : 4,
+                        "WEIGHTS_0" : 5
+                    },
+                    "indices" : 6,
+                    "material" : 0
+                }
+            ]
+        }
+    ],
+    "textures" : [
+        {
+            "source" : 0
+        },
+        {
+            "source" : 1
+        },
+        {
+            "source" : 2
+        }
+    ],
+    "images" : [
+        {
+            "mimeType" : "image/png",
+            "name" : "normal",
+            "uri" : "normal.png"
+        },
+        {
+            "mimeType" : "image/png",
+            "name" : "baseColor",
+            "uri" : "baseColor.png"
+        },
+        {
+            "mimeType" : "image/png",
+            "name" : "occlusionRoughnessMetallic",
+            "uri" : "occlusionRoughnessMetallic.png"
+        }
+    ],
+    "skins" : [
+        {
+            "inverseBindMatrices" : 7,
+            "joints" : [
+                14,
+                13,
+                5,
+                4,
+                3,
+                2,
+                6,
+                7,
+                8,
+                9,
+                12,
+                11,
+                10
+            ],
+            "name" : "Armature"
+        }
+    ],
+    "accessors" : [
+        {
+            "bufferView" : 0,
+            "componentType" : 5126,
+            "count" : 2322,
+            "max" : [
+                1.741935133934021,
+                10.640169143676758,
+                4.671051025390625
+            ],
+            "min" : [
+                -1.741935133934021,
+                -0.05210065841674805,
+                -5.5111284255981445
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 1,
+            "componentType" : 5126,
+            "count" : 2322,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 2,
+            "componentType" : 5126,
+            "count" : 2322,
+            "type" : "VEC4"
+        },
+        {
+            "bufferView" : 3,
+            "componentType" : 5126,
+            "count" : 2322,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 4,
+            "componentType" : 5123,
+            "count" : 2322,
+            "type" : "VEC4"
+        },
+        {
+            "bufferView" : 5,
+            "componentType" : 5126,
+            "count" : 2322,
+            "type" : "VEC4"
+        },
+        {
+            "bufferView" : 6,
+            "componentType" : 5123,
+            "count" : 8628,
+            "type" : "SCALAR"
+        },
+        {
+            "bufferView" : 7,
+            "componentType" : 5126,
+            "count" : 13,
+            "type" : "MAT4"
+        }
+    ],
+    "bufferViews" : [
+        {
+            "buffer" : 0,
+            "byteLength" : 27864,
+            "byteOffset" : 0
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 27864,
+            "byteOffset" : 27864
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 37152,
+            "byteOffset" : 55728
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 18576,
+            "byteOffset" : 92880
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 18576,
+            "byteOffset" : 111456
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 37152,
+            "byteOffset" : 130032
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 17256,
+            "byteOffset" : 167184
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 832,
+            "byteOffset" : 184440
+        }
+    ],
+    "buffers" : [
+        {
+            "byteLength" : 185272,
+            "uri" : "deno.bin"
+        }
+    ]
+}
